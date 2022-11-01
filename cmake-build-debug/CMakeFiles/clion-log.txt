@@ -1,0 +1,38 @@
+"/Users/valentinsstepanovs/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/valentinsstepanovs/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/valentinsstepanovs/CLionProjects/AunBinterval -B /Users/valentinsstepanovs/CLionProjects/AunBinterval/cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - broken
+CMake Error at /Users/valentinsstepanovs/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/valentinsstepanovs/CLionProjects/AunBinterval/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/Users/valentinsstepanovs/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1bcfc && [1/2] Building C object CMakeFiles/cmTC_1bcfc.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_1bcfc.dir/testCCompiler.c.o 
+    /usr/bin/cc   -arch arm64 -o CMakeFiles/cmTC_1bcfc.dir/testCCompiler.c.o -c /Users/valentinsstepanovs/CLionProjects/AunBinterval/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    xcrun: error: active developer path ("/Applications/Xcode.app/Contents/Developer") does not exist
+    Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
+    See `man xcode-select` for more details.
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/valentinsstepanovs/CLionProjects/AunBinterval/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/valentinsstepanovs/CLionProjects/AunBinterval/cmake-build-debug/CMakeFiles/CMakeError.log".
